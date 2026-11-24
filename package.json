@@ -1,0 +1,21 @@
+{
+  "name": "kabati",
+  "version": "1.0.0",
+  "description": "Kabati: your favourite shops, sorted.",
+  "scripts": {
+    "dev": "FAKE_IG=1 LOCAL_ADMIN=1 node scripts/dev.js",
+    "images": "node scripts/make-demo-images.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.2.1",
+    "@vercel/blob": "^2.9.0",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.6.0"
+  },
+  "private": true,
+  "engines": {
+    "node": "22.x"
+  }
+}
